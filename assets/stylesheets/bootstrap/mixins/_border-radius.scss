@@ -1,17 +1,58 @@
-// Single side border-radius
+/// Single side border-radius
+
+/// Mixin for the top border radius.
+///
+/// @param {type} $radius - The radius size for the border.
+/// 
+/// @example scss - Top border radius `.border`
+///   .border {
+///     @mixin border-top-radius(14px);
+///   }
 
 @mixin border-top-radius($radius) {
   border-top-right-radius: $radius;
    border-top-left-radius: $radius;
 }
+
+/// Mixin for the right border radius.
+///
+/// @param {type} $radius - The radius size for the border.
+/// 
+/// @example scss - Right border radius `.border`
+///   .border {
+///     @mixin border-right-radius(14px);
+///   }
+
 @mixin border-right-radius($radius) {
   border-bottom-right-radius: $radius;
      border-top-right-radius: $radius;
 }
+
+/// Mixin for the bottom border radius
+/// 
+/// @param {type} $radius - The radius size for the border. 
+///
+/// @example scss - Bottom border radius `.border`
+///   .border {
+///     @mixin border-bottom-radius(14px);
+///   }
+
 @mixin border-bottom-radius($radius) {
   border-bottom-right-radius: $radius;
    border-bottom-left-radius: $radius;
 }
+
+/// Mixin for the border left-radius 
+/// 
+/// @param {type} $radius - The raduis size for the border. 
+///
+/// @example scss - Left border radius `.border`
+///
+/// @example scss - Left border radius `.border`
+///   .boder {
+///     @mixin border-left-radius(14px);
+///   }
+
 @mixin border-left-radius($radius) {
   border-bottom-left-radius: $radius;
      border-top-left-radius: $radius;
