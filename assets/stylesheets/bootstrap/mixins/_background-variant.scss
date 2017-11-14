@@ -4,6 +4,8 @@
 ///
 /// @param {type} $parent - [CONVERTOR] $parent hack
 /// @param {type} $color - The color for the background variant.
+/// 
+/// @todo Implement usage example
 
 @mixin bg-variant($parent, $color) {
   #{$parent} {
