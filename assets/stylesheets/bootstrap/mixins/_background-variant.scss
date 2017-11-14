@@ -1,6 +1,10 @@
-// Contextual backgrounds
+/// Contextual backgrounds
 
-// [converter] $parent hack
+/// (bg-variant) The background variant mixin
+///
+/// @param {type} $parent - [CONVERTOR] $parent hack
+/// @param {type} $color - The color for the background variant.
+
 @mixin bg-variant($parent, $color) {
   #{$parent} {
     background-color: $color;
