@@ -2,9 +2,9 @@
 
 /// (alert-variant) Helper mixin for the alert variant
 ///
-/// @param $background  - The background color for the alert-variant.
-/// @param $border      - The border color for the alert variant. 
-/// @param $text-color  - The text color for the alert variant. 
+/// @param {type} $background  - The background color for the alert-variant.
+/// @param {type} $border      - The border color for the alert variant. 
+/// @param {type} $text-color  - The text color for the alert variant. 
 ///
 /// @example scss - Alert Variant `.alert-danger`
 ///   .alert-danger {
